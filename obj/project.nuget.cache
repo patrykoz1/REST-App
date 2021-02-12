@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uUfQwMX5oRA8TlOCP+zVYSTbuluW2htUiHPAfmCVgwZEL9iT9gscCzEZEkMYjOIn6yIDaEbVhte5erM/bUHhCw==",
+  "dgSpecHash": "bLebuTCktUEPscCZLJLVhvE3Tm6inJeLRV8SzgGTBKhMpm1vvs0USm9fquiX6I7dZzqfyVIqoxvchhxqmwt/Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patryk\\source\\repos\\RestApp\\RestApp\\RestApp.csproj",
+  "projectFilePath": "C:\\Users\\patryk\\source\\repos\\RestApp_fin\\RestApp\\RestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

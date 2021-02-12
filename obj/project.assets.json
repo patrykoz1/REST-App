@@ -8810,11 +8810,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patryk\\source\\repos\\RestApp\\RestApp\\RestApp.csproj",
+      "projectUniqueName": "C:\\Users\\patryk\\source\\repos\\RestApp_fin\\RestApp\\RestApp.csproj",
       "projectName": "RestApp",
-      "projectPath": "C:\\Users\\patryk\\source\\repos\\RestApp\\RestApp\\RestApp.csproj",
+      "projectPath": "C:\\Users\\patryk\\source\\repos\\RestApp_fin\\RestApp\\RestApp.csproj",
       "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patryk\\source\\repos\\RestApp\\RestApp\\obj\\",
+      "outputPath": "C:\\Users\\patryk\\source\\repos\\RestApp_fin\\RestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
