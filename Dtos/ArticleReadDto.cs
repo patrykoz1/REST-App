@@ -8,9 +8,15 @@ namespace RestApp.Dtos
 {
     public class ArticleReadDto
     {
+        [Required]
+        [Key]
         public int Id { get; set; }
+        [Required]
+        [MaxLength(100)]
         public String Title { get; set; }
+        [Required]
         public String Content { get; set; }
+        [Required]
         public int CategoryId { get; set; }
     }
 }

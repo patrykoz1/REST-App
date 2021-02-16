@@ -52,11 +52,11 @@ namespace RestApp.Data
             await dbCon.SaveChangesAsync();
         }
 
-        public async Task EditArticle(int id)
+        public async Task EditArticle(Article article)
         {
-            var art = dbCon.Articles.FirstOrDefaultAsync(x => x.Id == id);
-            dbCon.Remove(art);
+            //It can be empty..
             await dbCon.SaveChangesAsync();
+
         }
 
 

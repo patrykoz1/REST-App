@@ -12,7 +12,7 @@ namespace RestApp.Data
         public   Task<Article> GetArticle(int id);
         public   Task AddArticle(Article article);
         public  Task DeleteArticle(int id);
-        public Task EditArticle(int id);
+        public Task EditArticle(Article article);
 
 
     }
