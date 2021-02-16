@@ -14,6 +14,8 @@ namespace RestApp.Profiles
             //source -- > destination (from: to)
             CreateMap<Article, ArticleReadDto>();
             CreateMap<ArticleAddDto,Article>();
+            CreateMap<ArticleUpdateDto, Article>();
+
         }
     }
 }

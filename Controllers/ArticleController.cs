@@ -57,19 +57,26 @@ namespace RestApp.Controllers
 
         // PUT: api/Article/5
         [HttpPut("{id}")]
-        public async Task<IActionResult>Put(int id, ArticleAddDto article)
+        public async Task<IActionResult>UpdateArticle(int id, ArticleUpdateDto article)
         {
             var art = await _repository.GetArticle(id);
-            // var art_model = _mapper.Map<Article>(article);
-            await _repository.AddArticle(art);
+            if(art == null)
+            {
+                return NotFound(art);
+            }
+            _mapper.Map(article,art);
+            await _repository.EditArticle(art);
+           
 
-            return Ok();
+            return NoContent();
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            await _repository.DeleteArticle(id);
+            return Ok();
         }
     }
 }
