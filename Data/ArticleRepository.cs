@@ -47,7 +47,7 @@ namespace RestApp.Data
 
         public async Task DeleteArticle(int id)
         {
-            var art = dbCon.Articles.FirstOrDefaultAsync(x => x.Id == id);
+            var art = await dbCon.Articles.FirstOrDefaultAsync(x => x.Id == id);
             dbCon.Remove(art);
             await dbCon.SaveChangesAsync();
         }
