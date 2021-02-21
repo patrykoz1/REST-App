@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using RestApp.Data;
 using RestApp.Dtos;
 using RestApp.Models;
@@ -17,12 +19,18 @@ namespace RestApp.Controllers
     {
         private readonly IArticleRepository _repository;
         private readonly IMapper _mapper;
-        public ArticleController(IArticleRepository articleRepository,IMapper mapper)
+        private readonly ILogger<ArticleController> _logger;
+
+        public ArticleController(IArticleRepository articleRepository,IMapper mapper, ILogger<ArticleController> logger)
         {
             _repository = articleRepository;
             _mapper = mapper;
+            _logger = logger;
         }
+
+
         // GET: api/Article
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -33,6 +41,7 @@ namespace RestApp.Controllers
         }
 
         // GET: api/Article/5
+        [Authorize]
         [HttpGet("{id}", Name = "Get")]
         public async Task<IActionResult> Get(int id)
         {
@@ -46,6 +55,7 @@ namespace RestApp.Controllers
         }
 
         // POST: api/Article
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Post(ArticleAddDto article)
         {
@@ -56,6 +66,7 @@ namespace RestApp.Controllers
         }
 
         // PUT: api/Article/5
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult>UpdateArticle(int id, ArticleUpdateDto article)
         {
@@ -72,6 +83,7 @@ namespace RestApp.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
