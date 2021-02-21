@@ -261,8 +261,6 @@ C:\Users\patryk\source\repos\RestApp_fin\RestApp\bin\Debug\netcoreapp3.1\runtime
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.csprojAssemblyReference.cache
-C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.csproj.CoreCompileInputs.cache
-C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.AssemblyInfoInputs.cache
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.AssemblyInfo.cs
 C:\Users\patryk\source\repos\RestApp_fin\RestApp\obj\Debug\netcoreapp3.1\RestApp.RazorTargetAssemblyInfo.cache

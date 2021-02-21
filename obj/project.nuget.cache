@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bLebuTCktUEPscCZLJLVhvE3Tm6inJeLRV8SzgGTBKhMpm1vvs0USm9fquiX6I7dZzqfyVIqoxvchhxqmwt/Qg==",
+  "dgSpecHash": "RsVp4EZo2bEzvCd2YEUSYYAS9/r2EG5CL+GCQW6S21ARZmdSvOBb3XacQR9eX/bMmWOtM2e88h+6lQJqg3CPVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\patryk\\source\\repos\\RestApp_fin\\RestApp\\RestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using RestApp.Data;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace RestApp
 {
@@ -28,6 +29,13 @@ namespace RestApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+               .AddJwtBearer(opt =>
+               {
+                   opt.Audience = Configuration["AAD:ResourceId"];
+                   opt.Authority = $"{Configuration["AAD:Instance"]}{Configuration["AAD:TenantId"]}";
+               });
             services.AddDbContext<MyContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("ArticleDb")));
 
             services.AddControllers();
